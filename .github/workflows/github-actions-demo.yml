@@ -20,7 +20,7 @@ jobs:
           # list of Docker images to use as base name for tags
           images: |
             nnthuanegany/demo-github-action-build-push-dockerhub
-            ghcr.io/username/app
+            ghcr.io/nnthuanegany/demo-github-action-build-push-dockerhub
           # generate Docker tags based on the following events/attributes
           tags: |
             type=ref,event=branch
