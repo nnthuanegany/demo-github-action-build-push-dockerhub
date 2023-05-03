@@ -28,7 +28,7 @@ jobs:
             type=semver,pattern=demo-{{version}}
             type=semver,pattern=demo-{{major}}.{{minor}}
             type=semver,pattern=demo-{{major}}
-            type=demo-sha
+            type=demo-{{sha}}
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v2
