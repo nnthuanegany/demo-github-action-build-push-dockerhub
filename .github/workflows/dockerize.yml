@@ -18,8 +18,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           flavor: |
-            latest=false
-            prefix=demo
+            latest=true
+            prefix=demo,onlatest=true
           # list of Docker images to use as base name for tags
           images: |
             nnthuanegany/demo-github-action-build-push-dockerhub
